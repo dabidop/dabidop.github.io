@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin-top: 2px;
+  width:58px;
+  background-color: rgb(204, 228, 249);
+  border-radius: 50%;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Secular One', sans-serif;
+  background-color: rgb(55, 142, 218);
+}
+a:hover {
+  font-family: 'Secular One', sans-serif;
+  font-size: 17px;
+}
+a {
+  color: rgb(43, 7, 83);
+  font-family: 'Secular One', sans-serif;
+}
+body {
+  display: block;
+  background-image: url(imagenes/prritos.jpg);
+  background-size: cover;
+}
+.contenido {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13vh;
+}
+.cont1 {
+  display: flex;
+  width: 400px;
+  background-color: rgb(161, 206, 246);
+  border-radius: 15px;
+  padding: 0.7%;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 90%;
+}
+.imgvet {
+  width: 400px;
+  border-radius: 10px;
+}
+h1 {
+  font-family: 'Concert One', cursive;
+  color: rgb(39, 3, 81);
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+.redes {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+  justify-content: flex-end;
+}
+.imginst {
+  display: flex;
+  width: 25px;
+}
+.imgig {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+}
+.imgig:hover {
+  display: flex;
+  width: 50px;
+}
+h3 {
+  color: white;
+  width: 150px;
+}
+.fondredes {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8vh;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  font-size: 27px;
+  color: rgb(96, 151, 198);
+  font-family: 'Concert One', cursive;
+}
+.etqcontenido2 {
+  font-family: 'Concert One', cursive;
+  color: rgb(39, 3, 81);
+}

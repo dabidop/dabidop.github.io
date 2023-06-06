@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Secular+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión</title>
+  <link rel="icon" href="imagenes/pet.png">
+  <style>
+    @media (max-width: 800px){
+      .contenido {
+        flex-direction: column;
+        background-color: black;
+        background-size: 800px;
+        background-repeat: unset;
+      }
+      .insesion {
+        width: 400px;
+      }
+    }
+    @media (max-width: 500px) {
+      .insesion {
+        width: 300px;
+      }
+      .contenido {
+        background-color: black;
+        background-size: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    Crea una cuenta para acceder a todos nuestros servicios.
+  </h1>
+  <div class="contenido">
+    <div class="insesion">
+      <h2 class="etqlogin">
+        Inicio de sesión
+      </h2>
+        <form method="post">
+          <div class="user">
+            <input type="text" placeholder="Nombre de Usuario" required>
+          </div>
+          <div class="pass">
+            <input type="password" placeholder="Contraseña" required>
+          </div>
+          <div class="forgot">
+            <a href="#" style="text-decoration: none;">¿Ha olvidado su contraseña?</a>
+          </div>
+          <input class="boton" type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+    <div class="insesion">
+      <h2 class="etqlogin">
+        Crea tu cuenta
+      </h2>
+        <form method="post">
+          <div class="user">
+            <input type="text" placeholder="Nombre de Usuario" required>
+          </div>
+          <div class="pass">
+            <input type="password" placeholder="Contraseña" required>
+          </div>
+          <div class="pass">
+            <input type="password" placeholder="Repetir Contraseña" required>
+          </div>
+          <div class="pass">
+            <input type="text" placeholder="Correo electrónico" required>
+          </div>
+          <div class="noacc">
+            ¿Ya tienes una cuenta?<a href="login.html" style="text-decoration: none;">Inicia sesión.</a>
+          </div>
+          <input class="boton" type="submit" value="Registrarse">
+        </form>
+    </div>
+  </div>
+  <div class="fondredes">
+    <div class="redes">
+      <div class="contac"><h3>Contáctenos:</h3></div>
+      <a href="https://www.instagram.com" target="_blank">
+        <div class="imgig"><img class="imginst" src="imagenes/instagram.png"></div>
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <div class="imgig"><img class="imginst" src="imagenes/facebook.png"></div>
+      </a>
+      <a href="https://web.whatsapp.com" target="_blank">
+        <div class="imgig"><img class="imginst" src="imagenes/whatsapp.png"></div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

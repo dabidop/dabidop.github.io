@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(55, 142, 218);
+}
+.logo {
+  margin-top: 2px;
+  width:58px;
+  background-color: rgb(204, 228, 249);
+  border-radius: 50%;
+}
+body {
+  background-image: url(imagenes/vet1.jpg);
+  background-size: cover;
+}
+a {
+  font-family: 'Secular One', sans-serif;
+  color: rgb(43, 7, 83);
+}
+a:hover {
+  font-size: 17px;
+}
+p {
+  font-family: 'Secular One', sans-serif;
+  color: rgb(30, 9, 53);
+  margin-top: 3vh;
+}
+.contenido {
+  display: flex;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 0.5%;
+  background-color: rgb(130, 198, 233);
+  border-radius: 10px;
+  opacity: 85%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+  font-family: 'Concert One', cursive;
+  color: rgb(32, 8, 58);
+}
+
+.contenido input {
+  margin-top: 5vh;
+  
+}
+.boton {
+  font-family: 'Concert One', cursive;
+  background-color: rgb(64, 161, 210);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 4vh;
+  padding: 2%;
+}
+.redes {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+  justify-content: flex-end;
+}
+.imginst {
+  display: flex;
+  width: 25px;
+}
+.imgig {
+  display: flex;
+  width: 50px;
+  justify-content: center;
+}
+.imgig:hover {
+  display: flex;
+  width: 50px;
+}
+h3 {
+  color: white;
+  width: 150px;
+}
+.fondredes {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35vh;
+}
